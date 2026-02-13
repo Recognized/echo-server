@@ -3,6 +3,7 @@ env:
   FAIL_PROCESS: "${FAIL_PROCESS}"
   TIMEOUT: "${TIMEOUT}"
   ERROR_CODE: "${ERROR_CODE}"
+  CRASH: "${CRASH}"
 before-command: |
   #!/bin/bash
   set -e
